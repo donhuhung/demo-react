@@ -1,0 +1,1 @@
+import React, {Component} from 'react';class Cart extends Component {	constructor(props) {		super(props);	}	render() {		return(			<tr>				<td>1</td>				<td>				{this.props.data.name}				</td>				<td>				{this.props.data.price}				</td>			</tr>		);	}}export default Cart;
